@@ -1,0 +1,58 @@
+            "Employee Pay" 
+------------------------------------
+-------------Pseudo Code------------
+------------------------------------
+Variables: 
+employeeNumber
+payRate
+hoursWorked
+Total pay
+final maxHours = 60
+final maxPayrate = 25
+final overtime = 35
+
+Ask user for employeeNumber
+	store in variable
+
+Ask for employeePayRate 
+	if ( pay rate > Max payrate){
+		print out (Sorry, you cannot exceed $25/hour)
+	     else{
+                 Ask for Employee pay rate 
+			store in variable
+
+Ask for hoursWorked
+	if(hours worked > overtime && hours worked < maxHours){
+		overTimeHours = hoursWorked - 35
+		overTimePay = overTimeHours * (payRate / 2)
+		Total pay = (35 * payRate) + overTimePay
+	else if (hoursWorked > 60){
+		print out (Sorry you cannot work over 60 hours)
+	else{
+		totalPay = hoursWorked * payRate  
+
+Print out Employee number
+	  Employee pay rate
+          Hours worked
+          Over time hours + Over time pay(if applicable)
+          Total pay
+
+
+_____________________________________________________________________________________________
+                                         IPO Chart
+
+Input                  Processing                                            Output
+______________________________________________________________________________________________
+Employee Number         Recieve employee number                             Display customer number                 
+Pay Rate                Recieve pay rate                                    Hours worked + payrate       
+Hours Worked            Recieve recieve hours worked                               total pay
+		                                                            
+                        if pay rate > 25, error
+                        if pay rate greater than 35 and less than 60,       Display overtimepay and total pay
+                                      calcuate over time pay + totalpay   
+                        if hours worked > 60 error
+                        else calculate totalpay
+                        
+          
+      
+	

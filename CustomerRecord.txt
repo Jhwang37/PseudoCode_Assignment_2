@@ -1,0 +1,52 @@
+           "Customer Record"
+------------------------------------
+-------------Pseudo Code------------
+------------------------------------
+Control Structures: 
+
+Variables:
+Customer name
+purchase amount
+tax
+total amount due
+tax code array
+
+
+Ask for customers name
+	print out hello (customer)
+	add customer name to String variable
+Ask for purchase amount
+	add purchase amount to int
+Ask for tax code number
+	add tax code number to a int variable
+	use int variable to get index of array
+	use number from array and store in tax variable
+
+Sales tax = purchase amount * tax
+Total amount due = sales tax + purchase amount
+
+Print out 
+	Customers name
+	Purchase amount
+	Sales tax
+	Total amount due
+_____________________________________________________________________________________________
+                   IPO Chart
+
+Input                  Processing                                            Output
+______________________________________________________________________________________________
+Customer name         Recieve customer name                              Display customer name                 
+Purchase amount       Recieve purchase amount                            
+Tax code numbers      Recieve tax code
+		      Add purchase amount to variable
+                      Use tax code to find index of array
+		      Use value of index and store into int
+		      Multiply purchase amount and tax to get tax          
+                      Add purchase amount and tax to get total 
+		      print out name, purchase amount, tax              Display name, purchase amount,
+                            total amount due	                        tax, total amount due.  
+        
+	
+	
+
+
